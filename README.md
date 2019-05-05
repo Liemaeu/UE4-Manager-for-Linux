@@ -8,5 +8,7 @@ On other distros you can execute the UE4_Manager.py in the source folder with py
 
 Thanks to:
 -Erlandas, who made the Marketplace downloader https://github.com/Erlandys/UE4LinuxLauncher.git
+
 -Epic Games, who made the Unreal Engine 4 https://github.com/EpicGames/UnrealEngine.git
+
 -codywohlers, who made most parts of the updater script https://forums.unrealengine.com/community/community-content-tools-and-tutorials/118456-update-script-for-linux
