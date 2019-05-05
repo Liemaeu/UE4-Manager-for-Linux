@@ -12,4 +12,4 @@ Thanks to:
 
 -Epic Games, who made the Unreal Engine 4 https://github.com/EpicGames/UnrealEngine.git
 
--codywohlers, who made most parts of the updater script https://forums.unrealengine.com/community/community-content-tools-and-tutorials/118456-update-script-for-linux
+-codywohlers, who made most parts of the update script https://forums.unrealengine.com/community/community-content-tools-and-tutorials/118456-update-script-for-linux
