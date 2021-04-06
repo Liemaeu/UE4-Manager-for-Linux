@@ -19,7 +19,7 @@ You have to **delete** the **~/UpdateUE4.sh** file, the **~/UE4LinuxLauncher** a
 Thanks to:
 
 - Erlandas, who made the [Marketplace downloader](https://github.com/Erlandys/UE4LinuxLauncher.git)
+- 
+- codywohlers, who made most parts of the [update script](https://forums.unrealengine.com/community/community-content-tools-and-tutorials/118456-update-script-for-linux)
 
 - Epic Games, who made the [Unreal Engine 4](https://github.com/EpicGames/UnrealEngine.git)
-
-- codywohlers, who made most parts of the [update script](https://forums.unrealengine.com/community/community-content-tools-and-tutorials/118456-update-script-for-linux)
