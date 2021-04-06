@@ -1,5 +1,7 @@
 # UE4-Manager-for-Linux
  This is an unofficial manager for the Unreal Engine 4 for GNU/Linux (Installs UE4, updates it and allows to download content from the Marketplace)
+ 
+ ---
 
 Install:
 On Debian, Ubuntu, etc you can simply install the .deb package as normal. (Epic Games recommends Ubuntu 16.04 (64 Bit) or newer for the Unreal Engine 4)
@@ -10,10 +12,12 @@ Remove:
 sudo apt remove ue4manager (or delete source folder).
 You have to delete the ~/UpdateUE4.sh file, the ~/UE4LinuxLauncher and the ~/UnrealEngine folder, if you want to remove the updater script, the Marketplace content downloader and the Unreal Engine.
 
+---
+
 Thanks to:
 
--Erlandas, who made the Marketplace downloader https://github.com/Erlandys/UE4LinuxLauncher.git
+-Erlandas, who made the [Marketplace downloader](https://github.com/Erlandys/UE4LinuxLauncher.git)
 
--Epic Games, who made the Unreal Engine 4 https://github.com/EpicGames/UnrealEngine.git
+-Epic Games, who made the [Unreal Engine 4](https://github.com/EpicGames/UnrealEngine.git)
 
--codywohlers, who made most parts of the update script https://forums.unrealengine.com/community/community-content-tools-and-tutorials/118456-update-script-for-linux
+-codywohlers, who made most parts of the [update script][https://forums.unrealengine.com/community/community-content-tools-and-tutorials/118456-update-script-for-linux]
