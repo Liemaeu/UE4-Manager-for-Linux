@@ -22,4 +22,4 @@ Thanks to:
 
 - codywohlers, who made most parts of the [update script](https://forums.unrealengine.com/community/community-content-tools-and-tutorials/118456-update-script-for-linux)
 
-- Epic Games, that made the [Unreal Engine 4](https://github.com/EpicGames/UnrealEngine.git)
+- Epic Games, which made the [Unreal Engine 4](https://github.com/EpicGames/UnrealEngine.git)
