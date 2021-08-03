@@ -18,7 +18,7 @@ You have to **delete** the **~/UpdateUE4.sh** file, the **~/UE4LinuxLauncher** a
 
 ## Credits
 
-**Thanks to:**
+**Special thanks to:**
 
 - Erlandas, who made the [Marketplace downloader](https://github.com/Erlandys/UE4LinuxLauncher.git)
 
