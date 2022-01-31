@@ -16,6 +16,12 @@ app.setWindowIcon(QtGui.QIcon('Icon.png'))
 def installUE():
     installuewindow.show()
 
+def installMarketplace():
+    subprocess.call('xterm -e "cd ~/; git clone https://github.com/Erlandys/UE4LinuxLauncher.git; chmod +x UE4LinuxLauncher/Compiled/start.sh; exit" ', shell=True)
+
+def installUpdater():
+    subprocess.call('''echo 'UNREAL_DIR="~/UnrealEngine/"' > ~/UpdateUE4.sh; echo 'set -e' >> ~/UpdateUE4.sh; echo 'cd "$UNREAL_DIR"' >> ~/UpdateUE4.sh; echo 'git pull https://github.com/EpicGames/UnrealEngine.git release' >> ~/UpdateUE4.sh; echo './Setup.sh' >> ~/UpdateUE4.sh; echo './GenerateProjectFiles.sh' >> ~/UpdateUE4.sh; echo 'if [ "$1" == "-clean" ] ;then' >> ~/UpdateUE4.sh; echo 'make CrashReportClient-Linux-Shipping ShaderCompileWorker UnrealPak UnrealLightmass UnrealFrontend UE4Editor ARGS=-clean' >> ~/UpdateUE4.sh; echo 'fi' >> ~/UpdateUE4.sh; echo 'make' >> ~/UpdateUE4.sh; echo '~/UnrealEngine/Engine/Binaries/Linux/UE4Editor' >> ~/UpdateUE4.sh; chmod +x ~/UpdateUE4.sh; exit ''', shell=True)
+
 def updateUE():
     subprocess.call('xterm -e "cd ~/; ./UpdateUE4.sh; exit"', shell=True)
 
@@ -54,6 +60,8 @@ def cancel():
 
 #Buttons
 mainwindow.installButton.clicked.connect(installUE)
+mainwindow.installMarketplace.clicked.connect(installMarketplace)
+mainwindow.installUpdater.clicked.connect(installUpdater)
 mainwindow.updateButton.clicked.connect(updateUE)
 mainwindow.openMarketplaceButton.clicked.connect(openMarketplace)
 mainwindow.marketplaceDownloaderButton.clicked.connect(openMarketplaceDownloader)
