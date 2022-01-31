@@ -48,11 +48,6 @@ def activate():
 
 def install():
     installuewindow.destroy()
-    #Update script
-    subprocess.call('''echo 'UNREAL_DIR="~/UnrealEngine/"' > ~/UpdateUE4.sh; echo 'set -e' >> ~/UpdateUE4.sh; echo 'cd "$UNREAL_DIR"' >> ~/UpdateUE4.sh; echo 'git pull https://github.com/EpicGames/UnrealEngine.git release' >> ~/UpdateUE4.sh; echo './Setup.sh' >> ~/UpdateUE4.sh; echo './GenerateProjectFiles.sh' >> ~/UpdateUE4.sh; echo 'if [ "$1" == "-clean" ] ;then' >> ~/UpdateUE4.sh; echo 'make CrashReportClient-Linux-Shipping ShaderCompileWorker UnrealPak UnrealLightmass UnrealFrontend UE4Editor ARGS=-clean' >> ~/UpdateUE4.sh; echo 'fi' >> ~/UpdateUE4.sh; echo 'make' >> ~/UpdateUE4.sh; echo '~/UnrealEngine/Engine/Binaries/Linux/UE4Editor' >> ~/UpdateUE4.sh; chmod +x ~/UpdateUE4.sh; exit ''', shell=True)
-    #Marketplace content downloader
-    subprocess.call('xterm -e "cd ~/; git clone https://github.com/Erlandys/UE4LinuxLauncher.git; chmod +x UE4LinuxLauncher/Compiled/start.sh; exit" ', shell=True)
-    #Unreal Engine 4
     subprocess.call('xterm -e "cd ~/; git clone https://github.com/EpicGames/UnrealEngine.git; cd UnrealEngine; ./Setup.sh; ./GenerateProjectFiles.sh; make; ~/UnrealEngine/Engine/Binaries/Linux/UE4Editor; exit" ', shell=True)
 
 def cancel():
