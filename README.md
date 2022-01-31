@@ -2,6 +2,7 @@
  This is an unofficial manager for the Unreal Engine 4 for GNU/Linux (**Installs** the UE4, **updates** it and allows to **download content from the Marketplace**)
  
  ![Screenshot](https://raw.githubusercontent.com/Liemaeu/UE4-Manager-for-Linux/master/Screenshot.png)
+ ![ScreenshotInstall](https://raw.githubusercontent.com/Liemaeu/UE4-Manager-for-Linux/master/ScreenshotInstall.png)
  
 
 ## Install
