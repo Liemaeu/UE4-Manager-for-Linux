@@ -30,6 +30,20 @@
      </widget>
     </item>
     <item>
+     <widget class="QPushButton" name="installMarketplace">
+      <property name="text">
+       <string>Install Marketplace Downloader</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="installUpdater">
+      <property name="text">
+       <string>Install Unreal Engine 4 Updater</string>
+      </property>
+     </widget>
+    </item>
+    <item>
      <widget class="QPushButton" name="updateButton">
       <property name="text">
        <string>Update Unreal Engine 4</string>
@@ -65,7 +79,7 @@
      <x>0</x>
      <y>0</y>
      <width>542</width>
-     <height>32</height>
+     <height>30</height>
     </rect>
    </property>
   </widget>
